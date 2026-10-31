@@ -1,8 +1,9 @@
 import { BoxOrder } from "./BoxOrder";
 import { DragList } from "./dragList/DragList";
+import { LinkedListVisual } from "./linkedListVisual/LinkedListVisual";
 // import { HeavyStateLoader } from "./HeavyStateLoader";
 // import { JsonViewer } from "./JsonViewer";
-import { StickyNotes } from "./stickyNotes/StickyNotes";
+import { StickyShapes } from "./stickyShapes/StickyShapes";
 
 export function All() {
   console.log("All rendered");
@@ -12,8 +13,9 @@ export function All() {
       {/* <HeavyStateLoader /> */}
       {/* <JsonViewer /> */}
       {/* <BoxOrder /> */}
-      <DragList />
-      <StickyNotes />
+      {/* <DragList /> */}
+      <StickyShapes />
+      <LinkedListVisual />
     </div>
   )
 }
