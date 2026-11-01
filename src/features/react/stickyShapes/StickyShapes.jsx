@@ -42,10 +42,10 @@ export function StickyShapes() {
     setInput("");
   }
 
-  function getNewCoords(diff, currentClientCoords) {
-    const newX = currentClientCoords.cX - diff.x;
-    const newY = currentClientCoords.cY - diff.y;
-  }
+  // function getNewCoords(diff, currentClientCoords) {
+  //   const newX = currentClientCoords.cX - diff.x;
+  //   const newY = currentClientCoords.cY - diff.y;
+  // }
 
   function handlePointerDown(e) {
     const elm = e.currentTarget;
@@ -92,14 +92,14 @@ export function StickyShapes() {
     })
   }
 
-  function handlePointerUp() {
+  // function handlePointerUp() {
 
-    dragInfoRef.current = {
-      offsetX: 0, 
-      offsetY: 0, 
-      shapeId: null
-    }
-  }
+  //   dragInfoRef.current = {
+  //     offsetX: 0, 
+  //     offsetY: 0, 
+  //     shapeId: null
+  //   }
+  // }
 
   useEffect(() => console.log({shapes}), [shapes]);
 

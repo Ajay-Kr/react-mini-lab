@@ -3,7 +3,7 @@ import {
   useEffect, 
   useCallback 
 } from "react";
-import { useInterval } from "../hooks/useInterval";
+import { useInterval } from "../../../shared/hooks/useInterval";
 
 export function HeavyStateLoader() {
   function generateHeavyData() {
