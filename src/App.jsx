@@ -1,4 +1,5 @@
-import { All } from "./components/All"
+import { ExperimentPlayground } from "./ExperimentPlayground";
+
 
 function App() {
   console.log("App rendered!");
@@ -6,7 +7,7 @@ function App() {
   return (
     <div>
       <h1><center>Practice</center></h1>
-      <All />
+      <ExperimentPlayground />
     </div>
   )
 }
